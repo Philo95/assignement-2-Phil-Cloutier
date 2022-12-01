@@ -1,0 +1,383 @@
+@import url(./reset.css);
+/* End of Reset */
+
+
+/* Step 3: Import the Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300&display=swap');
+/* End of Fonts */
+
+
+
+
+html,
+body,
+header,
+main,
+section {
+    scroll-behavior: smooth;
+}
+
+p {
+    margin: 1.2em;
+    line-height: 1.5em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+#main-nav {
+    width: 100%;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#indexbody {
+    background-image: url(../images/DALL·E\ 2022-10-13\ 01.29.07\ -\ british\ columbia\ crystal\ water\ landscape\ with\ mountains\ in\ background\ HD.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#main-nav-about {
+    background-image: url(/images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
+}
+
+#h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 54pt;
+    font-family: 'roboto', sans-serif;
+    backdrop-filter: blur(20px);
+    border-radius: 150px;
+}
+
+#home-list {
+    list-style-type: circle;
+    margin: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 20%;
+    font-size: 18pt;
+    color: black;
+    text-align: center;
+
+}
+
+#main-nav-about ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav-about li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-nav-about ul li a:hover {
+    background-color: rgba(255, 255, 255, .25);
+    transition: 0, 5s;
+}
+
+
+#main-nav-about ul li a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-nav ul li a:hover {
+    background-color: rgba(255, 255, 255, .25);
+    transition: 0, 5s;
+}
+#hovertoread {
+    float: right;
+    font-size: large;
+    margin-right: 25em;
+    background-color: white;
+    padding: 0.2em;
+    border-radius: 10px;
+}
+
+#name {
+    text-shadow: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 80px;
+    font-family: 'abyssinica', sans-serif;
+}
+
+#CTA {
+    width: 130px;
+    height: 90px;
+    border:none;
+    border-radius: 10px;
+    background: red;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    float:right;
+    text-align: center;
+    margin-right: 45%;
+   padding: 1em;
+    
+
+}
+#main-nav ul li a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#me {
+    text-align: center;
+}
+
+#aboutme {
+    margin: 20px;
+}
+
+#aboutmelist {
+    list-style-type: none;
+    width: 1000px;
+}
+
+#aboutmeh3 {
+    font: bold 20px/1.5, 'roboto', sans-serif;
+}
+
+#aboutmepic1 {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#aboutmepic2 {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#aboutmepic3 {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#aboutmepic4 {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#about {
+    font: 200 13px/1.5 'Abyssinica', sans-serif;
+}
+
+#aboutmelist {
+    padding: 10px;
+    overflow: auto;
+}
+
+#aboutmelist:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+cite {
+    color: black;
+    float: right;
+
+}
+
+#main-nav3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav3 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-nav3 ul li a:hover {
+    background-color: rgba(255, 255, 255, .25);
+    transition: 0, 5s;
+}
+
+#cdiv {
+    background-color: white;
+}
+
+#main-nav3 ul li a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav3 {
+    background-image: url(/images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
+}
+
+#contacth1 {
+    text-align: center;
+    font-size: 30pt;
+    background-color: darkslateblue;
+    border-radius: 50px;
+    width: 100%;
+
+}
+
+
+#field1 {
+    text-align: center;
+    padding: 2em;
+    color: white;
+}
+
+#submit {
+    flex-direction: column
+}
+
+#h2contact {
+    font-size: 20pt;
+}
+
+#legend1 {
+    font-size: 20pt;
+    color: black;
+    background-color: white;
+
+}
+
+label {
+
+    float: left;
+
+    text-align: center;
+    font-size: 15pt;
+    background-color: black;
+    padding: 0.3em;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#cmain {
+    align-content: center;
+
+
+
+}
+
+input {
+
+    margin-top: 1em;
+margin-bottom: 0.5em;
+    float: right;
+
+
+}
+
+#reason {
+    text-align: center;
+}
+
+#message1 {
+    text-align: center;
+}
+
+#submit {
+    
+    padding: 2em;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 4em;
+margin-right: 20%;
+
+
+
+}
+
+#formsection {
+    background-image: url(../images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    justify-content: center;
+
+    color: white;
+    align-items: center;
+
+
+}
+
+#legend2 {
+    color: white;
+    font-size: 15pt;
+    
+}
+
+#label {
+    color: white;
+    font-size: 15pt;
+}
+
+#h2contact {
+    background-color: white;
+}
+
+#thanksbody {
+    background-image: url(../images/DALL·E\ 2022-10-13\ 09.20.52\ -\ birds-eye\ view\ of\ mountain\ landcape\ with\ a\ crystal\ blue\ lake\,\ HD.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#thanksh1 {
+    text-align: center;
+    color: black;
+    font-size: 40pt;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+
+}
+
+#thanksp {
+    text-align: center;
+    font-size: 35pt;
+    background-color: white;
+    opacity: 50%;
+    border-radius: 50px;
+
+}
+
+#thanksdiv> :nth-child(1) {
+    text-align: center;
+    border-radius: 10px 100px / 120px;
+    padding: 15px;
+    background-color: rgb(14, 148, 210);
+    box-shadow: 10px 10px 5px grey;
+    width: 99%;
+
+
+}
